@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  section {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
+  .tree ul li {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .complex > p {
+    color: blue;
+    font-weight: bold;
+  }
+  
+  .neighborhood h3 ~ p {
+    color: purple;
+    font-style: italic;
+  }
+  
+  .alleyway h3 + p {
+    color: orange;
+    font-weight: bold;
+  }
+  
+  .playground a:hover {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  .playground button:active {
+    background-color: #333;
+    color: white;
+  }
+  
+  .newspaper p::first-line {
+    font-weight: bold;
+    color: darkblue;
+  }
+  
+  .newspaper p::first-letter {
+    font-size: 2em;
+    color: darkred;
+  }
+  
+  /* Extras */
+  a:visited {
+    color: darkgray;
+  }
+ 
